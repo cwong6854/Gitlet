@@ -1,0 +1,34 @@
+# Initialize, add three files, remove one file, make branch.
+I prelude1.inc
+> branch other
+<<<
++ h.txt wug2.txt
+> add h.txt
+<<<
+> commit "One File"
+<<<
+> rm h.txt
+<<<
++ g.txt notwug.txt
++ f.txt wug.txt
+> add g.txt
+<<<
+> add f.txt
+<<<
+> status
+=== Branches ===
+*master
+other
+
+=== Staged Files ===
+f.txt
+g.txt
+
+=== Removed Files ===
+h.txt
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
