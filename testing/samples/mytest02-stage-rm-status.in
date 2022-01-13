@@ -1,0 +1,62 @@
+# Initialize and add four files, then status.
+I prelude1.inc
++ f.txt wug.txt
++ g.txt notwug.txt
++ w.txt wug2.txt
++ x.txt wug3.txt
+> add g.txt
+<<<
+> add f.txt
+<<<
+> add w.txt
+<<<
+> add x.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+x.txt
+w.txt
+f.txt
+g.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> commit "Four files"
+<<<
+> rm g.txt
+<<<
+> rm f.txt
+<<<
+> rm w.txt
+<<<
+> rm x.txt
+<<<
+* g.txt
+* f.txt
+* w.txt
+* x.txt
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+g.txt
+f.txt
+w.txt
+x.txt
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
