@@ -3,18 +3,24 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 A project for Data Structures and Algorithms (CS61B), UC Berkeley's second introductory computer science course.
 
 The project involves creating a version control system which mimics some basic features of Git, as well as some additional features. The features implemented are init, add, commit, rm, log, global-log, find, status, checkout, branch, rm-branch, reset, and merge.
 =======
 =======
 >>>>>>> 983d2ea (readme)
+=======
+=======
+>>>>>>> 346d098 (change readme)
+>>>>>>> 40d8d8b (readme2)
 A project for Data Structures and Algorithms (CS61B), UC Berkeley's second introductory computer science course.
 
 The project involves creating a version control system which mimics some of the basic features of Git, as well as some additional features. The features implemented are init, add, commit, rm, log, global-log, find, status, checkout, branch, rm-branch, reset, and merge.
 >>>>>>> 346d098 (change readme)
 
 Read the full spec here: https://inst.eecs.berkeley.edu/~cs61b/fa21/materials/proj/proj3/index.html
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ### Testing Commands
@@ -23,6 +29,11 @@ Read the full spec here: https://inst.eecs.berkeley.edu/~cs61b/fa21/materials/pr
 DIRECTORY: `/gitlet/testing`
 =======
 =======
+>>>>>>> 40d8d8b (readme2)
+=======
+=======
+
+>>>>>>> 346d098 (change readme)
 ### Testing Commands
 *Make sure that you are in the testing folder directory*
 
